@@ -1,6 +1,13 @@
 {
   "name": "ollama-cpu.dnp.dappnode.eth",
-  "version": "0.1.1",
+  "version": "0.1.3",
+  "upstream": [
+    {
+      "arg": "OLLAMA_VERSION",
+      "repo": "ollama/ollama",
+      "version": "v0.32.12"
+    }
+  ],
   "links": {
     "Model Manager": "http://ui.ollama-cpu.dappnode",
     "api": "http://ollama-cpu.dappnode:11434"

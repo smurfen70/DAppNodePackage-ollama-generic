@@ -4,6 +4,8 @@ services:
   ollama:
     build:
       context: ollama
+      args:
+        OLLAMA_VERSION: v0.32.12
     container_name: ollama.ollama-cpu.dnp.dappnode.eth
   ui:
     container_name: ui.ollama-cpu.dnp.dappnode.eth
